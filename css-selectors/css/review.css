@@ -1,18 +1,18 @@
 
-/* 
-.alert.success {
-  color: yellow;
-}
 
-.alert .success {
+/* .alert.success {
   color: yellow;
-}
+} */
 
-.alert, .success {
+/* .alert .success {
   color: yellow;
-}
+} */
 
-.alert--.success {
+/* .alert, .success {
+  color: yellow;
+} */
+
+/* .alert--.success {
   color: yellow
 } */
 
@@ -72,10 +72,9 @@
 
 
 /* Q3 */
-
-/* p { color: grey; }
+p { color: grey; }
 #red { color: red; }
 .blue { color: blue; }
 #red .blue { color: magenta; }
 .green p { color: lightgreen; }
-div.green p.blue { color: cyan; } */
+div.green p.blue { color: cyan; }
