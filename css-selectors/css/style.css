@@ -20,9 +20,9 @@ img {
 }
 
 /* elements with class="about-section" */
-.about-section {
+/* .about-section {
   background-color: #eee;
-}
+} */
 
 /* .alert {
   background-color: yellow;
@@ -61,9 +61,9 @@ img {
 } */
 
 
-li:nth-child(2n+1) {
+/* li:nth-child(2n+1) {
   background-color: darkkhaki;
-}
+} */
 
 /* h2, .alert, p { background-color: teal;
 } */
