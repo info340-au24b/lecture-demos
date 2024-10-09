@@ -46,12 +46,12 @@ main {
 
 
 /* course cards */
-.courses .card {
+.jobs .card {
     border: 1px solid black;
     margin: .25em;
 }
 
-.courses img {
+.jobs img {
     max-width: 150px;
 }
 
