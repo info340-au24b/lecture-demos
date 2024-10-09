@@ -29,6 +29,13 @@ nav li {
     padding: 10px;
 }
 
+/* if we want to use flexbox instead to style menu */
+/* nav ul {
+    display: flex;
+    justify-content: space-around;
+} */
+
+
 /* Example 3 - turn the whole thing into side by side columns! */ 
 main {
     display: flex;
