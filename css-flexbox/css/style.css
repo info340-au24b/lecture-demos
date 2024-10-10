@@ -1,8 +1,7 @@
 /* general styling */
-h1,
-h2,
-h3 {
-    font-family: 'Helvetica';
+h1, h2, h3, p  {
+    /* font-family: fantasy; */
+        /* font-family: "Open Sans", sans-serif; */
 
     /* Example 1 */
     /* font that doesn't exist */
@@ -11,7 +10,7 @@ h3 {
     /*font that doesn't exist, but fall back on a sans-serif font (maybe helvetic)*/
     /* font-family: 'Fakevetica', sans-serif; */
     /* After i've added the google font from the internet (and added the link in my html file) */
-    /* font-family: 'Fakevetica', 'Open Sans', sans-serif;  */
+    font-family: 'Fakevetica', 'Open Sans', sans-serif; 
 
     }
 
@@ -49,41 +48,42 @@ nav li {
     height: 50px; */
     
     /* Example 3 */
-    /* display: inline-block;
-    width: 200px;
+    display: inline-block;
+    /* width: 200px;
     height: 50px; */
     
 
     /* Example 3a */
     /* Show you can set width and height if you use inline-block */
 
-    /* width: 200px;
-    height: 75px; */
+    width: 200px;
+    height: 75px;
 
     /* Example 3b - make it look nicer */
     /* adding border; */
 
- /* border: 5px double white;
-    margin: 10px;
-    padding: 10px;  */
+    border: 5px double white;
+    margin: 20px;
+    padding: 15px; 
 }
 
 /* about section */
 .about {
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
+    background-color: lightgrey;
 
     /* Example 4 - show where padding, border margin are */
     /* adding padding */
 
-    /* padding: 1em; */
+    padding: 1em;
 
     /* adding border */
 
-    /* border: 3px dashed rebeccapurple; */
+    border-left: 3px solid rebeccapurple;
 
     /* adding margin */
 
-    /* margin: 1em; */
+    margin: 1em;
 }
 
 
@@ -120,5 +120,5 @@ footer {
 }
 
 span {
-    font-size: 1.6rem;
+    font-size: 1.6em;
 } */
