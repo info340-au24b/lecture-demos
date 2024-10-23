@@ -207,37 +207,36 @@ const songArray = [
 // });
 
 
-// // //Slide 24 - Using state to keep track if puppy is showing
+// //Slide 24 - Using state to keep track if puppy is showing
 
-// //STATE (should be at top of file)
-// let puppyShown = true;
+//STATE (should be at top of file)
+let puppyShown = true;
 
-// function renderPuppy() {
+function renderPuppy() {
 
-//   // document.querySelector('#puppySection div').innerHTML="";
+  document.querySelector('#puppySection div').innerHTML="";
 
-//   const imgElement = document.createElement('img');
+   if (puppyShown) {
+    document.querySelector('#puppySection div').innerHTML="";
 
-//   imgElement.src = 'img/puppy.jpg';
-//   imgElement.alt = 'a cute puppy';
+    const imgElement = document.createElement('img');
+    imgElement.src = 'img/puppy.jpg';
+    imgElement.alt = 'a cute puppy';
+  
+    document.querySelector('#puppySection div').appendChild(imgElement);
+  }
 
-//   if (!puppyShown) {
-//     imgElement.classList.add('d-none')
-//   }
+}
+renderPuppy();
 
-//   document.querySelector('#puppySection div').appendChild(imgElement);
+const hideButton = document.querySelector('#puppySection button');
 
-// }
-// renderPuppy();
-
-// const hideButton = document.querySelector('#puppySection button');
-
-// hideButton.addEventListener('click', function (event) {
-//   //change the state
-//   puppyShown = !puppyShown;
-//   //rerender
-//   renderPuppy();
-// });
+hideButton.addEventListener('click', function (event) {
+  //change the state
+  puppyShown = !puppyShown;
+  //rerender
+  renderPuppy();
+});
 
 // // Slide 25 - Using state to keep track if puppy is showing
 
