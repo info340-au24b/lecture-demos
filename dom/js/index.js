@@ -26,7 +26,7 @@ const songArray = [
 // const subtitle = document.querySelector('main h2');
 
 // subtitle.innerHTML = subtitle.textContent + " <em>(Husky)</em>";
-
+// // subtitle.textContent = subtitle.textContent + " <em>(Husky)</em>";
 
 // //Slide 14 Change an Attribute
 
@@ -41,17 +41,17 @@ const songArray = [
 
 
 
-// // Slide 15 Change a Style
-// // Notice you use "classList.add" to add an additional style to the 
-// // existing list of applied styles
+// // // Slide 15 Change a Style
+// // // Notice you use "classList.add" to add an additional style to the 
+// // // existing list of applied styles
 
-// //show the current style list (classList) for the header element
-// console.log(document.querySelector('header').classList);
+// // //show the current style list (classList) for the header element
+// // console.log(document.querySelector('header').classList);
 
-// //make the padding really big
-// document.querySelector('header').classList.add('py-5')
+// // //make the padding really big
+// // document.querySelector('header').classList.add('py-5')
 
-// console.log(document.querySelector('header').classList);
+// // console.log(document.querySelector('header').classList);
 
 // const theImg = document.querySelector('img');
 
@@ -116,39 +116,39 @@ const songArray = [
 // const songListElem = document.querySelector('#dataSection ol');
 // songListElem.appendChild(newLi);
 
-// Slide 18 - Pattern of using functions to generate elements
-//Take in a song object and return a formatted <li> object
-// We can do this with less code in React
+// // Slide 18 - Pattern of using functions to generate elements
+// //Take in a song object and return a formatted <li> object
+// // We can do this with less code in React
 
-function createSongListItem(songObj) {
-  //make this into a url
-  const aElem = document.createElement('a');
-  aElem.textContent = songObj.artist + " - " + songObj.title;
-  aElem.href = songObj.youtubeUrl;
+// function createSongListItem(songObj) {
+//   //make this into a url
+//   const aElem = document.createElement('a');
+//   aElem.textContent = songObj.artist + " - " + songObj.title;
+//   aElem.href = songObj.youtubeUrl;
 
-  // create the newLi and which has the anchor tag inside
-  const newLi = document.createElement('li');
-  newLi.append(aElem);
-  return newLi;
-}
+//   // create the newLi and which has the anchor tag inside
+//   const newLi = document.createElement('li');
+//   newLi.append(aElem);
+//   return newLi;
+// }
 
-function renderSongList(aSongArray) {
-  const songListElem = document.querySelector('#dataSection ol');
-  // songListElem.innerHTML = '';
-  for (const songObj of aSongArray) {
-    const songLiElem = createSongListItem(songObj);
-    songListElem.appendChild(songLiElem);
-  }
+// function renderSongList(aSongArray) {
+//   const songListElem = document.querySelector('#dataSection ol');
+//   // songListElem.innerHTML = '';
+//   for (const songObj of aSongArray) {
+//     const songLiElem = createSongListItem(songObj);
+//     songListElem.appendChild(songLiElem);
+//   }
 
 // document.querySelector('#dataSection h2').textContent = "Top "+aSongArray.length+ " Songs";
 
-}
+// }
 
-renderSongList(songArray);
+// renderSongList(songArray);
 
-// const songLiElem = createSongListItem({ artist: "Warren Zevon", title: "Lawyers Guns and Money", youtubeUrl: "https://www.youtube.com/watch?v=F2HH7J-Sx80" })
-// const songListElem = document.querySelector('#dataSection ol');
-// songListElem.appendChild(songLiElem);
+// // const songLiElem = createSongListItem({ artist: "Warren Zevon", title: "Lawyers Guns and Money", youtubeUrl: "https://www.youtube.com/watch?v=F2HH7J-Sx80" })
+// // const songListElem = document.querySelector('#dataSection ol');
+// // songListElem.appendChild(songLiElem);
 
 
 // // Slide 18A - Pattern of using functions to generate elements
@@ -222,7 +222,7 @@ renderSongList(songArray);
 //   document.querySelector('#puppySection div').innerHTML="";
 
 //    if (puppyShown) {
-//     document.querySelector('#puppySection div').innerHTML="";
+//     // document.querySelector('#puppySection div').innerHTML="";
 
 //     const imgElement = document.createElement('img');
 //     imgElement.src = 'img/puppy.jpg';
@@ -345,82 +345,82 @@ renderSongList(songArray);
 
 //   songArray.push(newSong);
 
-//   // document.querySelector('#artistInput').value = "";
-//   // document.querySelector('#titleInput').value = "";
-//   // document.querySelector('#urlInput').value = "";
+//   document.querySelector('#artistInput').value = "";
+//   document.querySelector('#titleInput').value = "";
+//   document.querySelector('#urlInput').value = "";
   
 //   renderSongList(songArray);
 
 // });
 
 
-// //Slide 29
-// //Another look at this where I use map to tranform the json into a an array of songLI's
+//Slide 29
+//Another look at this where I use map to tranform the json into a an array of songLI's
 
-// renderSongList(songArray);
+renderSongList(songArray);
 
-// // function to create one SongListItem
-// function createSongListItem(songObj) {
-//   //make this into a url
-//   const aElem = document.createElement('a');
-//   aElem.textContent = songObj.artist + " - " + songObj.title;
-//   aElem.href = songObj.youtubeUrl;
+// function to create one SongListItem
+function createSongListItem(songObj) {
+  //make this into a url
+  const aElem = document.createElement('a');
+  aElem.textContent = songObj.artist + " - " + songObj.title;
+  aElem.href = songObj.youtubeUrl;
 
-//   // create the newLi and make
-//   const newLi = document.createElement('li');
-//   newLi.append(aElem);
-//   return newLi;
-// }
-// // function to iterate over my SongArray to create and render as SongListItems
-// function renderSongList(aSongArray) {
+  // create the newLi and make
+  const newLi = document.createElement('li');
+  newLi.append(aElem);
+  return newLi;
+}
+// function to iterate over my SongArray to create and render as SongListItems
+function renderSongList(aSongArray) {
 
-//   let songLiArray = songArray.map( function (songObj) {
-//     const songLiElem = createSongListItem(songObj);
-//     return songLiElem;
-//   })
+  let songLiArray = songArray.map( function (songObj) {
+    const songLiElem = createSongListItem(songObj);
+    return songLiElem;
+  })
 
-//   // clear out the previous content befor rendering
-//   const songListElem = document.querySelector('#dataSection ol');
-//   songListElem.innerHTML = '';
-//   console.log("songList: ", songLiArray);
+  // clear out the previous content befor rendering
+  const songListElem = document.querySelector('#dataSection ol');
+  songListElem.innerHTML = '';
+  console.log("songList: ", songLiArray);
 
-//   for (const songLiElem of songLiArray) {
-//     songListElem.appendChild(songLiElem);
-//   }
+  for (const songLiElem of songLiArray) {
+    songListElem.appendChild(songLiElem);
+  }
 
-//   document.querySelector('#dataSection h2').textContent = "Top " + aSongArray.length + " Songs";
+  document.querySelector('#dataSection h2').textContent = "Top " + aSongArray.length + " Songs";
 
-// }
-// const formElement = document.querySelector('#formSection form');
+}
+const formElement = document.querySelector('#formSection form');
 
-// //listen for submit events
-// formElement.addEventListener('submit', function (event) {
-//   //stop normal behavior (going to a new site)
-//   event.preventDefault();
+//listen for submit events
+formElement.addEventListener('submit', function (event) {
+  //stop normal behavior (going to a new site)
+  event.preventDefault();
 
-//   //access what value the user typed in
-//   const artistInput = document.querySelector('#artistInput');
-//   const titleInput = document.querySelector('#titleInput');
-//   const urlInput = document.querySelector('#urlInput');
+  //access what value the user typed in
+  const artistInput = document.querySelector('#artistInput');
+  const titleInput = document.querySelector('#titleInput');
+  const urlInput = document.querySelector('#urlInput');
 
-//   const artistVal = artistInput.value;
-//   const titleVal = titleInput.value;
-//   const urlVal = urlInput.value;
+  const artistVal = artistInput.value;
+  const titleVal = titleInput.value;
+  const urlVal = urlInput.value;
 
-//   console.log(artistVal + " " + titleVal + " " + urlVal);
+  console.log(artistVal + " " + titleVal + " " + urlVal);
 
-//   const newSong = { artist: artistVal, title: titleVal, youtubeUrl: urlVal };
+  const newSong = { artist: artistVal, title: titleVal, youtubeUrl: urlVal };
 
-//   songArray.push(newSong);
-//   console.log("songArray: ", songArray)
+  songArray.push(newSong);
+  console.log("songArray: ", songArray)
 
-//   // document.querySelector('#artistInput').value = "";
-//   // document.querySelector('#titleInput').value = "";
-//   // document.querySelector('#urlInput').value = "";
+  document.querySelector('#artistInput').value = "";
+  document.querySelector('#titleInput').value = "";
+  document.querySelector('#urlInput').value = "";
   
-//   renderSongList(songArray);
+  renderSongList(songArray);
 
-// });
+});
 
 
 
