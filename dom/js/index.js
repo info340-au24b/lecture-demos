@@ -116,35 +116,40 @@ const songArray = [
 // const songListElem = document.querySelector('#dataSection ol');
 // songListElem.appendChild(newLi);
 
-// // Slide 18 - Pattern of using functions to generate elements
-// //Take in a song object and return a formatted <li> object
-// // We can do this with less code in React
+// Slide 18 - Pattern of using functions to generate elements
+//Take in a song object and return a formatted <li> object
+// We can do this with less code in React
 
-// function createSongListItem(songObj) {
-//   //make this into a url
-//   const aElem = document.createElement('a');
-//   aElem.textContent = songObj.artist + " - " + songObj.title;
-//   aElem.href = songObj.youtubeUrl;
+function createSongListItem(songObj) {
+  //make this into a url
+  const aElem = document.createElement('a');
+  aElem.textContent = songObj.artist + " - " + songObj.title;
+  aElem.href = songObj.youtubeUrl;
 
-//   // create the newLi and which has the anchor tag inside
-//   const newLi = document.createElement('li');
-//   newLi.append(aElem);
-//   return newLi;
-// }
+  // create the newLi and which has the anchor tag inside
+  const newLi = document.createElement('li');
+  newLi.append(aElem);
+  return newLi;
+}
 
-// function renderSongList(aSongArray) {
-//   const songListElem = document.querySelector('#dataSection ol');
-//   // songListElem.innerHTML = '';
-//   for (const songObj of aSongArray) {
-//     const songLiElem = createSongListItem(songObj);
-//     songListElem.appendChild(songLiElem);
-//   }
+function renderSongList(aSongArray) {
+  const songListElem = document.querySelector('#dataSection ol');
+  // songListElem.innerHTML = '';
+  for (const songObj of aSongArray) {
+    const songLiElem = createSongListItem(songObj);
+    songListElem.appendChild(songLiElem);
+  }
 
-// // document.querySelector('#dataSection h2').textContent = "Top "+aSongArray.length+ " Songs";
+// document.querySelector('#dataSection h2').textContent = "Top "+aSongArray.length+ " Songs";
 
-// }
+}
 
-// renderSongList(songArray);
+renderSongList(songArray);
+
+// const songLiElem = createSongListItem({ artist: "Warren Zevon", title: "Lawyers Guns and Money", youtubeUrl: "https://www.youtube.com/watch?v=F2HH7J-Sx80" })
+// const songListElem = document.querySelector('#dataSection ol');
+// songListElem.appendChild(songLiElem);
+
 
 // // Slide 18A - Pattern of using functions to generate elements
 // //Take in a song object and return a formatted <li> object
