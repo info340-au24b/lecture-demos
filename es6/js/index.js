@@ -127,6 +127,10 @@ console.log(peopleArray);
   
 //   console.log(foo2("Wilma"));
   
+// const foo3 = () => {console.log("hey jude")}
+
+// console.log(foo3());
+
 
 //   // Slide 12
 //   //destructuring arrays
@@ -141,37 +145,8 @@ console.log(peopleArray);
 // const {a, b, c} = myObject; //myObject.a to a, etc.
 // console.log(a); //=> 1
 // console.log(b); //=> 2;
-// console.log(c); //=> 3;
 
-
-
-// // Slide 14
-// //Spread with an array
-// const dimensions = [10, 20, 30, 40];
-// //extra values are "spread" into destructuring slots
-// const [width, height, ...rest] = dimensions 
-// console.log(width);  //=> 10
-// console.log(height); //=> 20
-// console.log(rest);   //=> [30, 40]; the rest of the values!
-// console.log(rest[1])
-
-// //Spread with an object
-// const person = {name: 'Ada', height: 64, weight: 135}
-// console.log(person)
-// const copyOfPerson = {...person}; //clone an object!
-// console.log(copyOfPerson);
-
-// console.log(person === copyOfPerson); //false! different objects!
-
-// //all off the properties are "spread" into the new object
-// const personWithHat = {hat: 'baseball', ...person}
-// console.log(person); //has name, height, weight
-// console.log(personWithHat); //has name, height, weight, hat
-
-// const tallerAda = {...person, height: 74};
-// console.log(tallerAda);
-
-// 
+// Slide 13
 // // 2 Examples of the reduce method using the destructuring as well
 
 // // Example 1: Here's the way to return the avg from within the reduce method using the other extra params
@@ -200,6 +175,34 @@ console.log(peopleArray);
 //     return newAvgRatio;
 // }, 0)
 // console.log(ratioAvg);
+
+
+// // Slide 14
+// //Spread with an array
+// const dimensions = [10, 20, 30, 40];
+// //extra values are "spread" into destructuring slots
+// const [width, height, ...rest] = dimensions 
+// console.log(width);  //=> 10
+// console.log(height); //=> 20
+// console.log(rest);   //=> [30, 40]; the rest of the values!
+// console.log(rest[1])
+
+// //Spread with an object
+// const person = {name: 'Ada', height: 64, weight: 135}
+// console.log(person)
+// const copyOfPerson = {...person}; //clone an object!
+// console.log(copyOfPerson);
+
+// console.log(person === copyOfPerson); //false! different objects!
+
+// //all off the properties are "spread" into the new object
+// const personWithHat = {hat: 'baseball', ...person}
+// console.log(person); //has name, height, weight
+// console.log(personWithHat); //has name, height, weight, hat
+
+// const tallerAda = {...person, height: 74};
+// console.log(tallerAda);
+
  
 
 // //Slide 15
