@@ -1,10 +1,12 @@
 'use strict';
-
+// const animalArray = ["cow", "duck", "chinchilla "];
 console.log("I'm the other.js file!");
 
 
-// import {animalArray} from './index.js';
 
+import {animalArray} from './index.js';
+
+console.log("Animal Array from other.js", animalArray)
 //Slide 16a
 // console.log("Animal Array: ", animalArray)
 
