@@ -111,10 +111,10 @@ import './index.css';
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(content)
 
-// // Example 7
+// // // Example 7
 
-import { App } from './components/App'
+// import { App } from './components/App'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<App />);
 
