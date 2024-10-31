@@ -11,11 +11,12 @@ import './index.css';
 
 // // Example 2
 // const content = (
-//     <header>
-//       <h1>Hello world!</h1>
-//       <p>This is a fine demo</p>
-//     </header>
-//   );
+//     <>
+//         <h1>Hello world!</h1>
+//         <p>This is a fine demo</p>
+//     </>
+// )
+//     ;
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(content);
@@ -36,7 +37,7 @@ import './index.css';
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(content);
 
-// // Example 4 - inline examples 
+// // Example 4 - inline examples
 
 // const myTitle = "Hello Inline React";
 // const imgURL = './img/puppy.jpg';
@@ -60,9 +61,10 @@ import './index.css';
 // root.render(content);
 
 // // Example 5
-// function HelloMessage() {
+// function HelloMessage(props) {
+    
 
-//     let message = "Hello Everyone!";
+//     let message = "Hello Early Risers!";
 //     return <h1>{message}</h1>;
 
 // }
@@ -75,10 +77,13 @@ import './index.css';
 // //Example 6 - Make a headerComponent
 
 // function HeaderComponent(props) {
+
+//     //this is a comment
 //     return (
 //         <div>
+//             {/* this is a comment */}
 //             <header>
-//                 <h1>React Demo Header</h1>
+//                 <h1>React cool Header</h1>
 //             </header>
 //         </div>);
 // }
@@ -111,10 +116,10 @@ import './index.css';
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(content)
 
-// // // Example 7
+// // Example 7
 
-// import { App } from './components/App'
+import App from './components/App'
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<App />);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 
