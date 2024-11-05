@@ -1,36 +1,36 @@
 import React from "react";
 
-//slide 15
-export function ChannelList(props) {
-    return (
-        <nav className="bg-secondary text-light py3">
-            <ul>
-                <li>General</li>
-                <li>Social</li>
-                <li>Dank Memes</li>
-                <li>Channel-4</li>
-            </ul>
-        </nav>
-
-    )
-}
-// // Slide 15a
+// //slide 15
 // export function ChannelList(props) {
-//     const CHANNEL_LIST = ['general', 'social', 'dank-memes', 'channel-4'];
-  
-//     const liArray = CHANNEL_LIST.map((channelNameString) => {
-//       const element = <li key={channelNameString}><a className='text-light' href="">{channelNameString}</a></li>
-//       return element;
-//     })
-      
 //     return (
 //         <nav className="bg-secondary text-light py3">
 //             <ul>
-//                 {liArray}
+//                 <li>General</li>
+//                 <li>Social</li>
+//                 <li>Dank Memes</li>
+//                 <li>Channel-4</li>
 //             </ul>
 //         </nav>
-//       )
-//   }
+
+//     )
+// }
+// Slide 15a
+export function ChannelList(props) {
+    const CHANNEL_LIST = ['general', 'social', 'dank-memes', 'channel-4'];
+  
+    const liArray = CHANNEL_LIST.map((channelNameString) => {
+      const element = <li key={channelNameString}><a className='text-light' href="">{channelNameString}</a></li>
+      return element;
+    })
+      
+    return (
+        <nav className="bg-secondary text-light py3">
+            <ul>
+                {liArray}
+            </ul>
+        </nav>
+      )
+  }
 
 // // Example Slide 26
 

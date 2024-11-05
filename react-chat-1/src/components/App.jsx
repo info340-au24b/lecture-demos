@@ -1,13 +1,13 @@
 import React from 'react';
-// import { HeaderBar } from './HeaderBar';
-// import { ChannelList } from './ChannelList';
-// import { ChatPane } from './ChatPane';
+import { HeaderBar } from './HeaderBar.jsx';
+import { ChannelList } from './ChannelList.jsx';
+import { ChatPane } from './ChatPane.jsx';
 
-export default function App(props) {
-  return (
-    <div>Hello App</div>
-  );
-}
+// export default function App(props) {
+//   return (
+//     <div>Hello App</div>
+//   );
+// }
 
 
 // // Example Slide 14
@@ -21,16 +21,16 @@ export default function App(props) {
 // }
 
 
-// // Example Slide 15
-// export default function App(props) {
-//   return (
-//     <div>
-//       <HeaderBar />
-//       <ChannelList />
-//       <ChatPane/>
-//     </div>
-//   );
-// }
+// Example Slide 15
+export default function App(props) {
+  return (
+    <div>
+      <HeaderBar />
+      <ChannelList />
+      <ChatPane/>
+    </div>
+  );
+}
 
 // // Example Slide 24
 
