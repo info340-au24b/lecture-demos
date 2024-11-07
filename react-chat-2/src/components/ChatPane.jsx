@@ -104,10 +104,11 @@ function MessageItem(props) {
     
 //   }
 
-//   //only show current channel messages
+//   //only show current channel messages, sorted reverse chronological order
+  
 //   const channelMessages = CHAT_HISTORY.filter((msgObj) => {
 //     return msgObj.channel === currentChannel;
-//   })
+//   }).sort((m1,m2) => m2.timestamp - m1.timestamp)
 
 //   //IF THERE ARE NO MESSAGES IN THIS CHANNEL, SHOW THIS
 //   if (channelMessages.length === 0) {
@@ -190,10 +191,11 @@ function MessageItem(props) {
 //     // console.log("you clicked me!", count);
 //   }
 
-//   //only show current channel messages
-//   const channelMessages = CHAT_HISTORY.filter((msgObj) => {
-//     return msgObj.channel === currentChannel;
-//   })
+//only show current channel messages, sorted reverse chronological order
+  
+// const channelMessages = CHAT_HISTORY.filter((msgObj) => {
+//   return msgObj.channel === currentChannel;
+// }).sort((m1,m2) => m2.timestamp - m1.timestamp)
 
 //   //IF THERE ARE NO MESSAGES IN THIS CHANNEL, SHOW THIS
 //   if (channelMessages.length === 0) {

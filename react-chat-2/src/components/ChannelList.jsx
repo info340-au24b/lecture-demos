@@ -2,8 +2,10 @@ import React from 'react';
 
 export function ChannelList(props) {
 
-  const channels = props.channels;
-  const currentChannel = props.currentChannel;
+  // const channels = props.channels;
+  // const currentChannel = props.currentChannel;
+
+  const {channels, currentChannel} = props;
 
   const linkElemArray = channels.map((channelNameString) => {
 
