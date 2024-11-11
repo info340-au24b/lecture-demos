@@ -1,0 +1,118 @@
+﻿Rank,Tag,Machine Name,Asset Tag,Cash Revenue,Bonus Cash,Token Play,Points,Time Base Play Revenue,Points Cash Value Paid,Coin Play,Time Based Play,EMP Plays,% Payout,Average Play Value,Percent of Total Sale,Facility,ImagePath
+30,17,Air FX 1,17,"$1,848.82 ",$521.00 ,0,,"$2,182.50 ",$0.00 ,"1,109",970,16,0,$2.14 ,1.06,Mill Creek,img/airFX.jpg
+58,22,Air FX 2,22,"$1,208.41 ",$425.92 ,0,,"$1,534.50 ",$0.00 ,757,682,20,0,$2.16 ,0.69,Mill Creek,img/airFX.jpg
+46,62,Cruis'n Blast 2,62,"$1,486.57 ",$354.53 ,0,,"$1,930.50 ",$0.00 ,871,858,5,0,$2.11 ,0.85,Mill Creek,img/CrusinBlast.jpg
+49,47,Cruis'n Blast 1,47,"$1,455.18 ",$384.74 ,0,,"$1,770.75 ",$0.00 ,876,787,5,0,$2.10 ,0.83,Mill Creek,img/CrusinBlast.jpg
+54,96,Halo: FireTeam Raven 3,94,"$1,302.08 ",$370.42 ,0,,"$3,055.00 ",$0.00 ,721,"1,222",15,0,$2.32 ,0.75,Mill Creek,img/FireTeamRaven.jpg
+64,97,Halo: FireTeam Raven 4,94,"$1,075.72 ",$291.78 ,0,,"$2,887.50 ",$0.00 ,591,"1,155",14,0,$2.31 ,0.62,Mill Creek,img/FireTeamRaven.jpg
+99,94,Halo: FireTeam Raven 1,94,$549.50 ,$150.50 ,0,,"$1,937.50 ",$0.00 ,308,775,4,0,$2.27 ,0.31,Mill Creek,img/FireTeamRaven.jpg
+100,95,Halo: FireTeam Raven 2,94,$490.50 ,$114.50 ,0,,"$1,502.50 ",$0.00 ,268,601,1,0,$2.26 ,0.28,Mill Creek,img/FireTeamRaven.jpg
+68,123,Hungry Hippos (Blue),123,"$1,033.85 ",$352.15 ,0,,$954.00 ,$0.00 ,730,477,4,0,$1.90 ,0.59,Mill Creek,img/HungryHippos.jpg
+74,125,Hungry Hippos (Orange),125,$919.98 ,$283.02 ,0,,$884.00 ,$0.00 ,642,442,5,0,$1.87 ,0.53,Mill Creek,img/HungryHippos.jpg
+79,124,Hungry Hippos (Yellow),124,$882.25 ,$313.75 ,0,,$894.00 ,$0.00 ,643,447,7,0,$1.86 ,0.51,Mill Creek,img/HungryHippos.jpg
+84,126,Hungry Hippos (Green),126,$829.75 ,$307.25 ,0,,$848.00 ,$0.00 ,603,424,4,0,$1.89 ,0.48,Mill Creek,img/HungryHippos.jpg
+50,65,Mario Kart 1,65,"$1,374.88 ",$374.12 ,0,,"$1,330.00 ",$0.00 ,928,665,13,0,$1.88 ,0.79,Mill Creek,img/MarioKart.jpg
+101,48,Mario Kart 2,48,$451.00 ,$118.00 ,0,,$460.00 ,$0.00 ,290,230,6,0,$1.96 ,0.26,Mill Creek,img/MarioKart.jpg
+6,108,Minecraft 1,108,"$3,439.00 ",$904.75 ,0,,$0.00 ,$0.00 ,"1,859",0,14,0,$2.34 ,1.97,Mill Creek,img/MineCraft.jpg
+19,122,Minecraft 2,122,"$2,443.73 ",$760.02 ,0,,$0.00 ,$0.00 ,"1,368",0,5,0,$2.34 ,1.4,Mill Creek,img/MineCraft.jpg
+33,319,Super Bike 3 (Orange),319,"$1,774.00 ",$542.00 ,0,,"$2,550.00 ",$0.00 ,"1,231","1,275",9,0,$1.88 ,1.02,Mill Creek,img/SuperBike.jpg
+40,318,Super Bike 3 (Pink),318,"$1,697.94 ",$484.06 ,0,,"$2,520.00 ",$0.00 ,"1,153","1,260",7,0,$1.89 ,0.97,Mill Creek,img/SuperBike.jpg
+43,321,Super Bike 3 (Green),321,"$1,553.87 ",$422.13 ,0,,"$2,316.00 ",$0.00 ,"1,054","1,158",2,0,$1.87 ,0.89,Mill Creek,img/SuperBike.jpg
+45,320,Super Bike 3 (Yellow),320,"$1,516.84 ",$422.17 ,0,,"$2,418.00 ",$0.00 ,"1,024","1,209",4,0,$1.89 ,0.87,Mill Creek,img/SuperBike.jpg
+103,90,Twister 1,90,$421.84 ,$116.16 ,0,,$692.00 ,$0.00 ,282,346,1,0,$1.91 ,0.24,Mill Creek,img/Twister.jpg
+106,92,Twister 4,92,$304.50 ,$85.50 ,0,,$626.00 ,$0.00 ,209,313,0,0,$1.87 ,0.17,Mill Creek,img/Twister.jpg
+107,93,Twister 3,93,$280.50 ,$87.50 ,0,,$578.00 ,$0.00 ,184,289,1,0,$2.00 ,0.16,Mill Creek,img/Twister.jpg
+109,91,Twister 2,91,$255.23 ,$69.77 ,0,,$478.00 ,$0.00 ,177,239,2,0,$1.84 ,0.15,Mill Creek,img/Twister.jpg
+10,28,Typhoon,28,"$2,808.03 ",$784.07 ,0,,"$4,322.50 ",$0.00 ,"1,183","1,330",3,0,$3.04 ,1.61,Mill Creek,img/Typhoon.jpg
+18,89,Jurassic Park,89,"$2,449.35 ",$916.90 ,0,,"$5,255.00 ",$0.00 ,"1,427","2,102",1,0,$2.36 ,1.4,Mill Creek,img/JurassicPark.jpg
+26,79,Boxing,79,"$2,014.73 ",$569.02 ,0,,"$4,687.50 ",$0.00 ,"1,878","3,125",105,0,$1.38 ,1.15,Mill Creek,img/Boxing.jpg
+62,155,StepmaniaX,155,"$1,120.50 ",$298.50 ,0,,"$1,388.00 ",$0.00 ,746,694,2,0,$1.90 ,0.64,Mill Creek,img/StepMania.jpg
+76,69,World's Largest PacMan,69,$899.12 ,$241.88 ,0,,"$2,536.00 ",$0.00 ,596,"1,268",2,0,$1.91 ,0.52,Mill Creek,img/WorldsLargestPacMan.jpg
+77,77,Baby Air,77,$898.25 ,$301.75 ,0,,"$1,026.00 ",$0.00 ,843,684,17,0,$1.42 ,0.51,Mill Creek,img/BabyAir.jpg
+78,5,Big Buck HD,5,$885.00 ,$168.00 ,0,,"$1,312.50 ",$0.00 ,742,875,9,0,$1.42 ,0.51,Mill Creek,img/BigBuck.jpg
+104,43,Let's go Safari,43,$418.60 ,$113.40 ,0,,$225.00 ,$0.00 ,559,225,2,0,$0.95 ,0.24,Mill Creek,img/LetsGoSafari.jpg
+112,99,Laser Frenzy,99,$0.00 ,$0.00 ,0,,$0.00 ,$0.00 ,0,0,0,0,$0.00 ,0,Mill Creek,img/LaserFrenzy.jpg
+69,61,Bean Bag Toss 2,61,"$1,025.96 ",$258.79 ,0,11840,"$1,182.00 ",$118.40 ,916,788,21,9.22,$1.40 ,0.59,Mill Creek,BeanBagToss.jpg
+83,54,Bean Bag Toss 1,54,$856.35 ,$213.15 ,0,8590,"$1,123.50 ",$85.90 ,758,749,18,8.03,$1.41 ,0.49,Mill Creek,BeanBagToss.jpg
+16,72,Big Bass Wheel 2,72,"$2,538.02 ",$596.32 ,0,62405,$0.00 ,$624.05 ,"1,959",0,3,19.91,$1.60 ,1.45,Mill Creek,img/BigBassWheel.jpg
+17,83,Big Bass Wheel 1,83,"$2,536.76 ",$565.45 ,0,58233,$0.00 ,$582.33 ,"1,915",0,10,18.77,$1.62 ,1.45,Mill Creek,img/BigBassWheel.jpg
+42,101,Connect 4 Hoops 2,101,"$1,554.11 ",$324.89 ,0,67420,"$1,474.00 ",$674.20 ,"1,017",737,35,35.88,$1.85 ,0.89,Mill Creek,img/Connect4Hoops.jpg
+44,100,Connect 4 Hoops 1,100,"$1,530.84 ",$335.16 ,0,69730,"$1,450.00 ",$697.30 ,"1,015",725,40,37.37,$1.84 ,0.88,Mill Creek,img/Connect4Hoops.jpg
+61,70,Crossy Road 1,70,"$1,133.16 ",$290.91 ,0,13337,"$4,221.00 ",$133.37 ,857,"2,412",13,9.37,$1.66 ,0.65,Mill Creek,img/CrossyRoad.jpg
+73,73,Crossy Road 2,73,$958.39 ,$249.58 ,0,4346,"$4,074.00 ",$43.46 ,731,"2,328",20,3.6,$1.65 ,0.55,Mill Creek,img/CrossyRoad.jpg
+39,58,DC Superheroes (Flash),58,"$1,718.52 ",$339.80 ,0,53229,$0.00 ,$532.29 ,"1,232",0,1,25.86,$1.67 ,0.99,Mill Creek,img/DCSuperHeroes.jpg
+66,60,DC Superheroes (Batman),60,"$1,043.56 ",$143.11 ,0,34769,$0.00 ,$347.69 ,749,0,2,29.3,$1.58 ,0.6,Mill Creek,img/DCSuperHeroes.jpg
+95,59,DC Superheroes (Superman),59,$596.59 ,$137.35 ,0,16886,$0.00 ,$168.86 ,438,0,1,23.01,$1.68 ,0.34,Mill Creek,img/DCSuperHeroes.jpg
+105,50,DC Superheroes (WW),50,$354.52 ,$71.90 ,0,10183,$0.00 ,$101.83 ,302,0,3,23.88,$1.41 ,0.2,Mill Creek,img/DCSuperHeroes.jpg
+27,63,Down the Clown 2,63,"$1,994.48 ",$482.02 ,0,27565,"$2,493.00 ",$275.65 ,"1,771","1,662",44,11.13,$1.40 ,1.14,Mill Creek,img/DownTheClown.jpg
+51,57,Down the Clown 1,57,"$1,370.25 ",$370.50 ,0,13750,"$1,794.00 ",$137.50 ,"1,249","1,196",27,7.9,$1.39 ,0.79,Mill Creek,img/DownTheClown.jpg
+92,39,Duo Drive 1,39,$644.09 ,$229.91 ,0,,$507.00 ,$0.00 ,920,507,0,0,$0.95 ,0.37,Mill Creek,img/DuoDrive.jpg
+93,45,Duo Drive 2,45,$624.25 ,$234.25 ,0,,$539.00 ,$0.00 ,907,539,1,0,$0.95 ,0.36,Mill Creek,img/DuoDrive.jpg
+52,6,Fishbowl Frenzy 1,6,"$1,355.97 ",$361.53 ,0,50914,"$1,201.50 ",$509.14 ,"1,247",801,8,29.64,$1.38 ,0.78,Mill Creek,img/FishBowlFrenzy.jpg
+57,7,Fishbowl Frenzy 2,7,"$1,227.18 ",$259.32 ,0,32684,"$1,401.00 ",$326.84 ,"1,098",934,16,21.99,$1.35 ,0.7,Mill Creek,img/FishBowlFrenzy.jpg
+72,64,Flying Tickets 2,64,$961.25 ,$219.25 ,0,13860,"$1,999.50 ",$138.60 ,835,"1,333",16,11.74,$1.41 ,0.55,Mill Creek,img/FlyingTickets.jpg
+108,52,Flying Tickets 1,52,$266.50 ,$77.75 ,0,4140,$561.00 ,$41.40 ,243,374,2,12.03,$1.42 ,0.15,Mill Creek,img/FlyingTickets.jpg
+56,16,Grand Piano Keys (left),16,"$1,253.59 ",$346.16 ,0,29633,"$2,757.00 ",$296.33 ,"1,141","1,838",28,18.52,$1.40 ,0.72,Mill Creek,img/GrandPianoKeys.jpg
+85,24,Grand Piano Keys (right),24,$797.75 ,$196.00 ,0,6778,"$1,720.50 ",$67.78 ,692,"1,147",53,6.82,$1.44 ,0.46,Mill Creek,img/GrandPianoKeys.jpg
+86,10,Hoops 3,10,$756.87 ,$246.13 ,0,23500,$914.00 ,$235.00 ,"1,003",914,68,23.43,$1.00 ,0.43,Mill Creek,img/Hoops.jpg
+90,8,Hoops 1,8,$673.98 ,$209.02 ,0,25795,$801.00 ,$257.95 ,935,801,48,29.21,$0.94 ,0.39,Mill Creek,img/Hoops.jpg
+97,9,Hoops 2,9,$556.75 ,$138.75 ,0,20320,$691.00 ,$203.20 ,742,691,82,29.22,$0.94 ,0.32,Mill Creek,img/Hoops.jpg
+111,11,Hoops 4,11,$27.00 ,$7.00 ,0,625,$78.00 ,$6.25 ,34,78,41,18.38,$1.00 ,0.02,Mill Creek,img/Hoops.jpg
+48,14,Ice Ball 2,14,"$1,462.29 ",$388.60 ,0,23846,"$1,471.25 ",$238.46 ,"1,580","1,177",43,12.88,$1.17 ,0.84,Mill Creek,img/IceBall.jpg
+53,12,Ice Ball 1,12,"$1,328.40 ",$344.54 ,0,763,"$1,132.50 ",$7.63 ,"1,420",906,29,0.46,$1.18 ,0.76,Mill Creek,img/IceBall.jpg
+55,15,Ice Ball 3,15,"$1,297.09 ",$322.55 ,0,20109,"$1,432.50 ",$201.09 ,"1,396","1,146",50,12.42,$1.16 ,0.74,Mill Creek,img/IceBall.jpg
+13,23,King of Rings (Green),23,"$2,738.67 ",$453.83 ,0,,$0.00 ,$0.00 ,"1,436",0,352,0,$2.22 ,1.57,Mill Creek,img/KingOfRingsGreen.jpg
+20,107,King of Rings (Yellow),24,"$2,394.66 ",$517.84 ,0,,$0.00 ,$0.00 ,"1,306",0,360,0,$2.23 ,1.37,Mill Creek,img/KIngOfRingsYellow.jpg
+14,113,Monopoly 1,113,"$2,626.29 ",$511.34 ,0,82355,$0.00 ,$823.55 ,"1,981",0,6,26.25,$1.58 ,1.51,Mill Creek,img/Monopoly.jpg
+31,112,Monopoly 2,112,"$1,838.27 ",$442.52 ,0,56332,$0.00 ,$563.32 ,"1,425",0,4,24.7,$1.60 ,1.05,Mill Creek,img/Monopoly.jpg
+28,18,NERF 1,18,"$1,916.48 ",$439.52 ,0,53969,"$1,978.00 ",$539.69 ,"1,274",989,20,22.91,$1.85 ,1.1,Mill Creek,img/Nerf.jpg
+34,106,NERF 2,106,"$1,769.24 ",$459.76 ,0,46333,"$1,838.00 ",$463.33 ,"1,195",919,23,20.79,$1.87 ,1.01,Mill Creek,img/Nerf.jpg
+82,31,Pirate's Hook 1,31,$862.80 ,$260.29 ,0,22436,$877.50 ,$224.36 ,965,702,0,19.98,$1.16 ,0.49,Mill Creek,img/PiratesHook.jpg
+88,34,Pirate's Hook 2,34,$739.28 ,$218.32 ,0,19171,$765.00 ,$191.71 ,819,612,1,20.02,$1.17 ,0.42,Mill Creek,img/PiratesHook.jpg
+89,36,Pirate's Hook 4,36,$732.81 ,$228.67 ,0,17369,$628.75 ,$173.69 ,809,503,0,18.06,$1.19 ,0.42,Mill Creek,img/PiratesHook.jpg
+94,35,Pirate's Hook 3,35,$622.41 ,$255.24 ,0,17109,$630.00 ,$171.09 ,750,504,1,19.49,$1.17 ,0.36,Mill Creek,img/PiratesHook.jpg
+112,127,Redeem Machine,127,$0.00 ,$0.00 ,0,107018,$0.00 ,"$1,070.18 ",0,0,0,0,$0.00 ,0,Mill Creek,img/RedeemMachine.jpg
+5,41,Whack n Win,41,"$4,212.45 ",$884.22 ,0,98065,"$3,661.00 ",$980.65 ,"3,198","2,092",25,19.24,$1.59 ,2.41,Mill Creek,img/WhackNWin.jpg
+9,51,Quick Drop,51,"$2,826.10 ",$663.65 ,0,99744,"$2,694.00 ",$997.44 ,"2,521","1,796",22,28.58,$1.38 ,1.62,Mill Creek,img/QuickDrop.jpg
+25,84,Black Hole,84,"$2,024.66 ",$468.34 ,0,24020,"$2,194.50 ",$240.20 ,"1,662","1,463",21,9.63,$1.50 ,1.16,Mill Creek,img/BlackHole.jpg
+29,20,Pop the Lock,20,"$1,897.94 ",$409.82 ,0,33948,"$2,367.00 ",$339.48 ,"1,660","1,578",49,14.71,$1.39 ,1.09,Mill Creek,img/PopTheLock.jpg
+60,55,Milk Jug Toss,55,"$1,151.47 ",$242.03 ,0,9420,"$1,215.00 ",$94.20 ,929,810,23,6.76,$1.50 ,0.66,Mill Creek,img/MileJugToss.jpg
+63,38,Minion Whacker,38,"$1,082.00 ",$296.50 ,0,154024,$717.00 ,"$1,540.24 ",970,478,12,111.73,$1.42 ,0.62,Mill Creek,img/MinionWhacker.jpg
+91,32,KC Cobra,32,$651.50 ,$175.50 ,0,20600,$149.00 ,$206.00 ,860,149,37,24.91,$0.96 ,0.37,Mill Creek,img/KCCobra.jpg
+98,37,Circus Ball Drop,37,$552.17 ,$125.60 ,0,17944,$747.50 ,$179.44 ,578,598,14,26.48,$1.17 ,0.32,Mill Creek,img/CircusBallDrop.jpg
+102,56,2 Minute Drill,56,$446.45 ,$102.55 ,0,2380,$760.50 ,$23.80 ,385,507,17,4.34,$1.43 ,0.26,Mill Creek,img/2MinuteDrill.jpg
+112,136,Card Balanace Station,136,$0.00 ,$0.00 ,0,,$0.00 ,$0.00 ,0,0,0,0,$0.00 ,0,Mill Creek,img/CardBalanceStation.jpg
+65,67,Space Invaders 2,67,"$1,053.34 ",$376.66 ,0,,"$1,594.00 ",$0.00 ,762,797,1,0,$1.88 ,0.6,Mill Creek,img/SpaceInvaders.jpg
+71,53,Space Invaders 1,53,$985.00 ,$368.00 ,0,,"$1,528.00 ",$0.00 ,724,764,2,0,$1.87 ,0.56,Mill Creek,img/SpaceInvaders.jpg
+110,26,Ticket Time 2,26,$216.75 ,$63.75 ,0,4300,$0.00 ,$43.00 ,221,0,5,15.33,$1.27 ,0.12,Mill Creek,img/TicketTime.jpg
+112,21,Ticket Time (L),21,$0.00 ,$0.00 ,0,,$0.00 ,$0.00 ,0,0,0,0,$0.00 ,0,Mill Creek,img/TicketTime.jpg
+37,75,Tower of Tickets (Green),75,"$1,757.76 ",$310.74 ,0,74886,$0.00 ,$748.86 ,"1,490",0,1,36.2,$1.39 ,1.01,Mill Creek,img/TowerOfTickets.jpg
+41,76,Tower of Tickets (Red),76,"$1,658.94 ",$267.81 ,0,35890,$0.00 ,$358.90 ,"1,373",0,6,18.63,$1.40 ,0.95,Mill Creek,img/TowerOfTickets.jpg
+47,71,Tower of Tickets (Yellow),71,"$1,472.86 ",$291.89 ,0,114804,$0.00 ,"$1,148.04 ","1,331",0,7,65.05,$1.33 ,0.84,Mill Creek,img/TowerOfTickets.jpg
+59,74,Tower of Tickets (Blue),74,"$1,159.49 ",$263.26 ,0,67069,$0.00 ,$670.69 ,"1,020",0,3,47.14,$1.39 ,0.66,Mill Creek,img/TowerOfTickets.jpg
+23,115,Wizard of Oz (Scarecrow),115,"$2,200.97 ",$293.03 ,0,,$0.00 ,$0.00 ,"1,396",0,58,0,$1.79 ,1.26,Mill Creek,img/WizardOfOz.jpg
+24,114,Wizard of Oz (Dorothy),114,"$2,084.34 ",$354.67 ,0,,$0.00 ,$0.00 ,"1,405",0,28,0,$1.74 ,1.19,Mill Creek,img/WizardOfOz.jpg
+32,118,Wizard of Oz (Wicked Witch),118,"$1,815.25 ",$305.75 ,0,,$0.00 ,$0.00 ,"1,142",0,57,0,$1.86 ,1.04,Mill Creek,img/WizardOfOz.jpg
+35,119,Wizard of Oz (Glinda),119,"$1,763.85 ",$308.15 ,0,,$0.00 ,$0.00 ,"1,197",0,69,0,$1.73 ,1.01,Mill Creek,img/WizardOfOz.jpg
+36,116,Wizard of Oz (Cowardly Lion),116,"$1,763.49 ",$294.51 ,0,,$0.00 ,$0.00 ,"1,168",0,51,0,$1.76 ,1.01,Mill Creek,img/WizardOfOz.jpg
+81,117,Wizard of Oz (Tinman),117,$871.00 ,$236.00 ,0,,$0.00 ,$0.00 ,568,0,8,0,$1.95 ,0.5,Mill Creek,img/WizardOfOz.jpg
+67,42,Candy Crane,42,"$1,034.11 ",$230.39 ,0,,$0.00 ,$0.00 ,843,0,8,0,$1.50 ,0.59,Mill Creek,img/CandyCrane.jpg
+112,27,Duck Catcher,27,$0.00 ,$0.00 ,0,,$0.00 ,$0.00 ,0,0,1,0,$0.00 ,0,Mill Creek,img/DuckCatcher.jpg
+2,315,E-Claw 1,315,"$5,229.71 ","$1,338.05 ",0,,$0.00 ,$0.00 ,"2,009",0,40,0,$3.27 ,3,Mill Creek,img/Eclaw.jpg
+12,206,E-Claw 2,206,"$2,780.86 ",$859.14 ,0,,$0.00 ,$0.00 ,"1,146",0,20,0,$3.18 ,1.59,Mill Creek,img/Eclaw.jpg
+7,46,Fun Zone 2,46,"$3,051.98 ",$834.28 ,0,,$0.00 ,$0.00 ,"1,632",0,76,0,$2.38 ,1.75,Mill Creek,img/FunZone.jpg
+11,44,Fun Zone 1,44,"$2,807.34 ",$618.91 ,0,,$0.00 ,$0.00 ,"1,501",0,60,0,$2.28 ,1.61,Mill Creek,img/FunZone.jpg
+112,298,empty,298,$0.00 ,$0.00 ,0,,$0.00 ,$0.00 ,0,0,0,0,$0.00 ,0,Mill Creek,
+38,49,Prize Box,49,"$1,732.79 ",$290.71 ,0,,$0.00 ,$0.00 ,752,0,120,0,$2.69 ,0.99,Mill Creek,img/PrizeBox.jpg
+1,325,Mega Prize,325,"$11,745.31 ","$2,272.20 ",0,,$0.00 ,$0.00 ,"4,656",0,18,0,$3.01 ,6.73,Mill Creek,img/MegaPrize.jpg
+4,13,Prize Locker,13,"$4,559.71 ",$685.04 ,0,,$0.00 ,$0.00 ,"1,701",0,8,0,$3.08 ,2.61,Mill Creek,img/PrizeLocker.jpg
+96,30,Photo Booth,30,$581.25 ,$106.25 ,0,,$0.00 ,$0.00 ,147,0,12,0,$4.68 ,0.33,Mill Creek,img/PhotoBooth.jpg
+3,135,Mini Golf,135,"$4,801.40 ","$1,190.80 ",433,,"$1,125.00 ",$0.00 ,"1,101",125,58,0,$5.44 ,2.75,Mill Creek,img/MiniGolf.jpg
+70,88,Mini Bowling 4,88,"$1,008.43 ",$371.57 ,0,,"$1,575.00 ",$0.00 ,293,315,10,0,$4.71 ,0.58,Mill Creek,img/Bowling.jpg
+75,87,Mini Bowling 3,87,$906.99 ,$258.01 ,0,,"$1,495.00 ",$0.00 ,246,299,10,0,$4.74 ,0.52,Mill Creek,img/Bowling.jpg
+80,86,Mini Bowling 2,86,$873.25 ,$349.25 ,0,,"$1,410.00 ",$0.00 ,263,282,4,0,$4.65 ,0.5,Mill Creek,img/Bowling.jpg
+87,85,Mini Bowling 1,85,$754.00 ,$356.00 ,0,,$975.00 ,$0.00 ,235,195,9,0,$4.72 ,0.43,Mill Creek,img/Bowling.jpg
+21,129,King Kong VR 1,129,"$2,316.91 ",$560.09 ,68,,$258.00 ,$0.00 ,593,43,14,0,$4.85 ,1.33,Mill Creek,img/KingKongVR.jpg
+22,130,King Kong VR 2,130,"$2,298.20 ",$566.80 ,79,,$240.00 ,$0.00 ,597,40,8,0,$4.80 ,1.32,Mill Creek,img/KingKongVR.jpg
+8,131,Storm VR 1,131,"$2,956.74 ",$637.27 ,97,,$42.00 ,$0.00 ,743,7,15,0,$4.84 ,1.69,Mill Creek,img/StormVR.jpg
+15,132,Storm VR 2,132,"$2,586.36 ",$569.64 ,85,,$408.00 ,$0.00 ,644,68,12,0,$4.90 ,1.48,Mill Creek,img/StormVR.jpg

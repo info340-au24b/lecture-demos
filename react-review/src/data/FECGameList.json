@@ -1,0 +1,371 @@
+[
+  {
+    "ImagePath": "img/AirFX.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Air FX Hockey Table",
+    "ManufacturerSite": "https://www.icegame.com/"
+  },
+  {
+    "ImagePath": "img/CruisnBlast.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Cruis'n Blast",
+    "ManufacturerSite": "https://rawthrills.com/games/cruisn-blast/"
+  },
+  {
+    "ImagePath": "img/HaloFireTeamRaven.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Halo FireTeam Raven",
+    "ManufacturerSite": "https://rawthrills.com/games/halo-fireteam-raven/"
+
+  },
+  
+  {
+    "ImagePath": "img/HungryHippos.jpg",
+    "Manufacturer": "Adrenaline Arcade",
+    "GameName": "Hungry, Hungry Hippos",
+    "ManufacturerSite": "https://adrenalinearcade.com/hungry-hungry-hippos-v2/"
+
+  },
+  {
+    "ImagePath": "img/MarioKart.jpg",
+    "Manufacturer": "Namco America",
+    "GameName": "Mario Kart",
+    "ManufacturerSite": "https://www.bandainamco-am.com/Ecommerce/category/commercial-games/mario-kart-arcade-gp-dx"
+  },
+  {
+    "ImagePath": "img/minecraft.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Minecraft Dungeons Arcade",
+    "ManufacturerSite": "https://rawthrills.com/minecraft-dungeons-arcade/"
+  },
+  {
+    "ImagePath": "img/SuperBike.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Super Bike 3",
+    "ManufacturerSite": "https://rawthrills.com/super-bikes-3/"
+  },
+  {
+    "ImagePath": "img/Twister.jpg",
+    "Manufacturer": "Adrenaline Arcade",
+    "GameName": "Twister",
+    "ManufacturerSite": "https://adrenalinearcade.com/twister-v2/"
+  },
+  {
+    "ImagePath": "img/Typhoon.jpg",
+    "Manufacturer": "TrioTech",
+    "GameName": "Typhoon",
+    "ManufacturerSite": "https://www.trio-tech.com/products/typhoon/"
+  },
+  {
+    "ImagePath": "img/JurassicPark.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Jurassic Park",
+    "ManufacturerSite": "https://rawthrills.com/games/jurassic-park-arcade/"
+  },
+  {
+    "ImagePath": "img/Boxing.jpg",
+    "Manufacturer": "Kalkomat",
+    "GameName": "Boxer Boxing Machine",
+    "ManufacturerSite": "https://www.kalkomat.com/"
+  },
+  {
+    "ImagePath": "img/StepMania.jpg",
+    "Manufacturer": "Stepmaniax",
+    "GameName": "Stepmaniax",
+    "ManufacturerSite": "https://stepmaniax.com/"
+  },
+  {
+    "ImagePath": "img/WorldsLargestPacMan.jpg",
+    "Manufacturer": "Bandai Namco",
+    "GameName": "World's largest PacMan",
+    "ManufacturerSite": "https://www.namcoparts.com/Ecommerce/category/commercial-games/worlds-largest-pac-man"
+  },
+  {
+    "ImagePath": "img/BabyAir.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Baby Air Hockey",
+    "ManufacturerSite": "https://www.icegame.com/"
+  },
+  {
+    "ImagePath": "img/BigBuck.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Big Buck HD",
+    "ManufacturerSite": "https://rawthrills.com/big-buck-hd-wild/"
+  },
+  {
+    "ImagePath": "img/LetsGoSafari.jpg",
+    "Manufacturer": "Sega Amusements (UK)",
+    "GameName": "Let's go Safari",
+    "ManufacturerSite": "https://segaretro.org/Let%27s_Go_Safari"
+  },
+  {
+    "ImagePath": "img/LaserFrenzy.jpg",
+    "Manufacturer": "Creative Works",
+    "GameName": "Lazer Frenzy",
+    "ManufacturerSite": "https://www.pursuitzone.com/amusement-park-ride-category/creative-works-Laser-Tag-Arena/"
+  },
+  {
+    "ImagePath": "img/BeanBagToss.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Bean Bag Toss",
+    "ManufacturerSite": "https://www.icegame.com/games/bean-bag-toss/"
+  },
+  {
+    "ImagePath": "img/BigBassWheel.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Big Bass Wheel",
+    "ManufacturerSite": "https://www.baytekent.com/big-bass-wheel/"
+  },
+  {
+    "ImagePath": "img/Connect4Hoops.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Connect 4 Hoops",
+    "ManufacturerSite": "https://www.baytekent.com/connect-4-hoops/#:~:text=Connect%204%20Hoops%20%2D%20Bay%20Tek%20Entertainment"
+  },
+  {
+    "ImagePath": "img/CrossyRoad.jpg",
+    "Manufacturer": "Hipster Whale",
+    "GameName": "Crossy Roads",
+    "ManufacturerSite": "https://www.crossyroad.com/about"
+  },
+  {
+    "ImagePath": "img/DCSuperHeroes.jpg",
+    "Manufacturer": "Andamiro",
+    "GameName": "DC Superheroes",
+    "ManufacturerSite": "https://andamirousa.com/product/dc-superheroes/"
+  },
+  {
+    "ImagePath": "img/DownTheClown.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Down the Clown",
+    "ManufacturerSite": "https://www.icegame.com/games/down-the-clown/"
+  },
+  {
+    "ImagePath": "img/DuoDrive.jpg",
+    "Manufacturer": "Unis Games",
+    "GameName": "Duo Drive",
+    "ManufacturerSite": "https://www.unistechnology.com/products/duo-drive/"    
+  },
+  {
+    "ImagePath": "img/FishBowlFrenzy.jpg",
+    "Manufacturer": "Team Play Inc",
+    "GameName": "Fishbowl Frenzy",
+    "ManufacturerSite": "https://primetimeamusements.com/product/fishbowl-frenzy/" 
+  },
+  {
+    "ImagePath": "img/FlyingTickets.jpg",
+    "Manufacturer": "Adrenaline Arcade",
+    "GameName": "Flying Tickets",
+    "ManufacturerSite": "https://adrenalinearcade.com/flying-tickets-2/" 
+  },
+  {
+    "ImagePath": "img/GrandPianoKeys.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Grand Piano Keys",
+    "ManufacturerSite": "https://www.baytekent.com/grand-piano-keys/" 
+  },
+  {
+    "ImagePath": "img/Hoops.jpg",
+    "Manufacturer": "Universal Space",
+    "GameName": "Hoops",
+    "ManufacturerSite": "https://primetimeamusements.com/product/extreme-hoops/" 
+  },
+  {
+    "ImagePath": "img/IceBall.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Ice Ball",
+    "ManufacturerSite": "https://www.icegame.com/?attachment_id=3886" 
+  },
+  {
+    "ImagePath": "img/KingOfRingsGreen.jpg",
+    "Manufacturer": "Smart Industries",
+    "GameName": "King of Rings",
+    "ManufacturerSite": "https://www.smartind.com/ticketring.html" 
+  },
+  {
+    "ImagePath": "img/Monopoly.jpg",
+    "Manufacturer": "M&P Amusement",
+    "GameName": "Monopoly",
+    "ManufacturerSite": "https://mpamusement.com/products/monopoly-ticket-arcade-game" 
+  },
+  {
+    "ImagePath": "img/Nerf.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Nerf",
+    "ManufacturerSite": "https://rawthrills.com/nerf-arcade/" 
+  },
+  {
+    "ImagePath": "img/PiratesHook.jpg",
+    "Manufacturer": "Universal Space",
+    "GameName": "Pirate's Hook",
+    "ManufacturerSite": "https://www.unispartsandservice.com/games/pirate-hook-4-player" 
+  },
+  {
+    "ImagePath": "img/RedeemMachine.jpg",
+    "Manufacturer": "Andamiro",
+    "GameName": "Redeem Machine",
+    "ManufacturerSite": "https://andamirousa.com/product/redeem-machine/" 
+  },
+  {
+    "ImagePath": "img/WhackNWin.jpg",
+    "Manufacturer": "Andamiro",
+    "GameName": "Whack n Win",
+    "ManufacturerSite": "https://www.icegame.com/games/whack-n-win/" 
+  },
+  {
+    "ImagePath": "img/QuickDrop.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Quick Drop",
+    "ManufacturerSite": "https://www.baytekent.com/quik-drop/" 
+  },
+  {
+    "ImagePath": "img/BlackHole.jpg",
+    "Manufacturer": "Coastal Amusements",
+    "GameName": "Black Hole",
+    "ManufacturerSite": "https://coastalamusements.com/game/black-hole/" 
+  },
+  {
+    "ImagePath": "img/PopTheLock.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Pop the Lock",
+    "ManufacturerSite": "https://www.baytekent.com/pop-the-lock/" 
+  },
+  {
+    "ImagePath": "img/MilkJugToss.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Milk Jug Toss",
+    "ManufacturerSite": "https://www.icegame.com/" 
+  },
+  {
+    "ImagePath": "img/MinionWhacker.jpg",
+    "Manufacturer": "Adrenaline Arcade",
+    "GameName": "Minion Whacker",
+    "ManufacturerSite": "https://primetimeamusements.com/product/despicable-minion-whacker/" 
+  },
+  {
+    "ImagePath": "img/KCCobra.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "KC Cobra",
+    "ManufacturerSite": "https://www.icegame.com/games/sting-motion-based-rides/" 
+  },
+  {
+    "ImagePath": "img/CircusBallDrop.jpg",
+    "Manufacturer": "Andamiro",
+    "GameName": "Circus Ball Drop",
+    "ManufacturerSite": "https://www.andamiro.com/games/circusballdrop" 
+  },
+  {
+    "ImagePath": "img/2MinuteDrill.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "2 Minute Drill",
+    "ManufacturerSite": "https://primetimeamusements.com/product/nfl-2-minute-drill/" 
+  },
+  {
+    "ImagePath": "img/CardBalanceStation.jpg",
+    "Manufacturer": "Intercard",
+    "GameName": "Card Balance Sation",
+    "ManufacturerSite": "https://www.intercardinc.com/" 
+  },
+  {
+    "ImagePath": "img/SpaceInvaders.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Space Invaders",
+    "ManufacturerSite": "https://rawthrills.com/games/space-invaders-frenzy/" 
+  },
+  {
+    "ImagePath": "img/TicketTime.jpg",
+    "Manufacturer": "Smart Industries",
+    "GameName": "Ticket Time",
+    "ManufacturerSite": "https://www.smartind.com/tickettime.html" 
+  },
+  {
+    "ImagePath": "img/TowerOfTickets.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Tower of Tickets",
+    "ManufacturerSite": "https://www.baytekent.com/tower-of-tickets/" 
+  },
+  {
+    "ImagePath": "img/WizardOfOz.jpg",
+    "Manufacturer": "Elaut",
+    "GameName": "Wizard of Oz",
+    "ManufacturerSite": "https://www.elaut.com/amusement-games/wizard-of-oz-3-player" 
+  },
+  {
+    "ImagePath": "img/CandyCrane.jpg",
+    "Manufacturer": "Coast to Coast Entertainment",
+    "GameName": "Candy Cane",
+    "ManufacturerSite": "https://primetimeamusements.com/product/candy-prize/" 
+  },
+  {
+    "ImagePath": "img/DuckCatcher.jpg",
+    "Manufacturer": "Coast to Coast Entertainment",
+    "GameName": "Duck Catcher",
+    "ManufacturerSite": "https://www.winwithp1ag.com/product/duck-catcher" 
+  },
+  {
+    "ImagePath": "img/EClaw.jpg",
+    "Manufacturer": "Elaut",
+    "GameName": "E-Claw",
+    "ManufacturerSite": "https://www.elaut.com/amusement-games/crane-e-claw-900-series" 
+  },
+  {
+    "ImagePath": "img/FunZone.jpg",
+    "Manufacturer": "Coast to Coast Entertainment",
+    "GameName": "Fun Zone",
+    "ManufacturerSite": "https://coasttocoastcranes.com/equipment/cranes/fun-zone-36-inch/" 
+  },
+  {
+    "ImagePath": "img/empty.jpg",
+    "Manufacturer": "Jif",
+    "GameName": "Empty",
+    "ManufacturerSite": "https://www.jif.com/" 
+  },
+  {
+    "ImagePath": "img/PrizeBox.jpg",
+    "Manufacturer": "Smart Industries",
+    "GameName": "Prize Box",
+    "ManufacturerSite": "https://www.smartind.com/prizebox.html" 
+  },
+  {
+    "ImagePath": "img/MegaPrize.jpg",
+    "Manufacturer": "Smart Industries",
+    "GameName": "Mega Prize",
+    "ManufacturerSite": "https://www.smartind.com/megaprize.html" 
+  },
+  {
+    "ImagePath": "img/PrizeLocker.jpg",
+    "Manufacturer": "Sega",
+    "GameName": "Prize Locker",
+    "ManufacturerSite": "https://segaarcade.com/games/prize-locker" 
+  },
+  {
+    "ImagePath": "img/PhotoBooth.jpg",
+    "Manufacturer": "Team Play Inc",
+    "GameName": "Photo Booth",
+    "ManufacturerSite": "https://primetimeamusements.com/product/fun-stop-photos/" 
+  },
+  {
+    "ImagePath": "img/MiniGolf.jpg",
+    "Manufacturer": "Fun Company",
+    "GameName": "Mini Golf",
+    "ManufacturerSite": "https://primetimeamusements.com/product/power-putt-mini-golf-lcd-cabinet/" 
+  },
+  {
+    "ImagePath": "img/MiniBowling.jpg",
+    "Manufacturer": "Funk",
+    "GameName": "Mini Bowling",
+    "ManufacturerSite": "https://www.funkbowling.com/products/mini-bowling/" 
+  },
+  {
+    "ImagePath": "img/KingKongVR.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "King Kong VR",
+    "ManufacturerSite": "https://rawthrills.com/king-kong-of-skull-island/" 
+  },
+  {
+    "ImagePath": "img/StormVR.jpg",
+    "Manufacturer": "Trio Tech",
+    "GameName": "Storm VR",
+    "ManufacturerSite": "https://www.trio-tech.com/products/storm/" 
+  }
+ ]
