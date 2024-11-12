@@ -4,6 +4,8 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Table from 'react-bootstrap/Table';
+import Form from 'react-bootstrap/Form';
 
 
 
@@ -12,18 +14,25 @@ export function FECGames(props) {
     // State variables for the two filters (Games and Manufacturers)
     const [gameFilter, setGameFilter] = useState("All")
     const [manufacturerFilter, setManufacturerFilter] = useState("All")
+    const [viewToggleValue, setViewToggleValue] = useState("cards")
 
     // handlers for when one of the filter options is selected in the filter dropdowns
     const handleGameManufacturerFilterClick = (event) => {
-        console.log("changed the filter", event);
-        console.log("event.target.value :", event.target.value);
+        // console.log("changed the filter", event);
+        // console.log("event.target.value :", event.target.value);
         setManufacturerFilter(event.target.value);
     }
 
     const handleGameFilterClick = (event) => {
-        console.log("changed the Game filter", event);
-        console.log("event.target.value :", event.target.value);
+        // console.log("changed the Game filter", event);
+        // console.log("event.target.value :", event.target.value);
         setGameFilter(event.target.value);
+    }
+
+    const handleToggleViewChange = (event) => {
+        setViewToggleValue(event.target.value)
+        console.log(event.target.value)
+
     }
 
     // Allows for interdependent filtering because we check through all of the filter state vars 
@@ -31,7 +40,6 @@ export function FECGames(props) {
         if (
             (gameFilter !== "All" && gameFilter !== gameObj.GameName) ||
             (manufacturerFilter !== "All" && manufacturerFilter !== gameObj.Manufacturer
-                // colesfileter !== "All"
             )
 
         ) {
@@ -52,7 +60,7 @@ export function FECGames(props) {
         return 0;
     });
 
-    
+
     // This creates the array of filter options for Games in the drop down
     const FECGamesFilterOptions = FilteredSortedFECGames.map((gameObj) => {
         const { GameName } = gameObj;
@@ -93,6 +101,23 @@ export function FECGames(props) {
                 <DropdownButton id="dropdown-item-button" title={"Manufacturer : " + manufacturerFilter} className="m-1">
                     {FECManufacturersFilterOptions}
                 </DropdownButton>
+                <Form>
+                    <Form.Check
+                        label="card view"
+                        value="cards"
+                        checked={viewToggleValue === "cards"}
+                        type="radio"
+                        onChange={handleToggleViewChange}
+                    />
+                    <Form.Check
+                        label="table view"
+                        value="table"
+                        checked={viewToggleValue === "table"}
+                        type="radio"
+                        onChange={handleToggleViewChange}
+                    />
+
+                </Form>
 
             </div>
         )
@@ -108,8 +133,7 @@ export function FECGames(props) {
                 <Card.Body className="d-flex flex-column">
                     <Card.Title>{gameObj.GameName}</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        {gameObj.GameDescription}
                     </Card.Text>
                     <ListGroup variant="flush">
                         <ListGroup.Item><b>Manufacturer:</b> {gameObj.Manufacturer}</ListGroup.Item>
@@ -122,19 +146,65 @@ export function FECGames(props) {
         );
     }
 
+    // Card Component for FECGames
+    function FECGameRow(gameObj) {
+
+
+        return (
+            <tr className="tablerow" key={gameObj.GameName}>
+                <td><img src={gameObj.ImagePath} alt={gameObj.MachineName} /> </td>
+                <td>{gameObj.GameName}</td>
+                <td>{gameObj.GameDescription}</td>
+                <td>{gameObj.Manufacturer}</td>
+                <td><Button variant="outline-primary" className="mt-auto"><a href={gameObj.ManufacturerSite} target="_blank">Go to {gameObj.Manufacturer} site</a></Button></td>
+            </tr>
+        );
+    }
+
+
     // CardList Component for FECGames
     function FECGameList(props) {
 
-       const cardList = FilteredSortedFECGames.map((cardObj) => {
-            const cardItem = FECGameCard(cardObj);
-            return cardItem;
-        })
+        if (viewToggleValue === "cards") {
 
-        return (
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" >
-                {cardList}
-            </div>
-        )
+            const cardList = FilteredSortedFECGames.map((cardObj) => {
+                const cardItem = FECGameCard(cardObj);
+                return cardItem;
+            })
+
+            return (
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" >
+                    {cardList}
+                </div>
+            )
+        }
+
+        else {
+            const rowList = FilteredSortedFECGames.map((cardObj) => {
+                const rowItem = FECGameRow(cardObj);
+                return rowItem;
+            })
+
+            return (
+                <Table striped bordered hover size="sm">
+                    <thead>
+                        <tr>
+                            <th>img</th>
+                            <th>Game Name</th>
+                            <th>Description</th>
+                            <th>Manufacturer</th>
+                            <th>Web Site</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {rowList}
+                    </tbody>
+
+                </Table>
+            )
+
+        }
+
     }
 
 
