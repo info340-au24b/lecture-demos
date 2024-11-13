@@ -60,10 +60,10 @@ export default function App(props) {
 // // Slide 19, add state for current user
 // import React, { useState } from 'react';
 
-// import { HeaderBar } from './HeaderBar.js';
-// import { ChannelList } from './ChannelNav.js';
-// import { ChatPane } from './ChatPane.js';
-// import { ComposeForm } from './ComposeForm';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import { ChannelList } from './ChannelNav.jsx';
+// import { ChatPane } from './ChatPane.jsx';
+// import { ComposeForm } from './ComposeForm.jsx';
 
 // import CHAT_HISTORY from '../data/chat_log.json';
 
@@ -114,10 +114,10 @@ export default function App(props) {
 // // Slide 22, add state for current user
 // import React, { useState } from 'react';
 
-// import { HeaderBar } from './HeaderBar.js';
-// import { ChannelList } from './ChannelNav.js';
-// import { ChatPane } from './ChatPane.js';
-// import { ComposeForm } from './ComposeForm';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import { ChannelList } from './ChannelNav.jsx';
+// import { ChatPane } from './ChatPane.jsx';
+// import { ComposeForm } from './ComposeForm.jsx';
 
 // import CHAT_HISTORY from '../data/chat_log.json';
 
@@ -174,10 +174,10 @@ export default function App(props) {
 // // Slide 25, simplify and use the state vars in App rather than passing as props
 // import React, { useState } from 'react';
 
-// import { HeaderBar } from './HeaderBar.js';
-// import { ChannelList } from './ChannelNav.js';
-// import { ChatPane } from './ChatPane.js';
-// import { ComposeForm } from './ComposeForm';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import { ChannelList } from './ChannelNav.jsx';
+// import { ChatPane } from './ChatPane.jsx';
+// import { ComposeForm } from './ComposeForm.jsx';
 // import CHAT_HISTORY from '../data/chat_log.json';
 
 // //A component!
@@ -234,10 +234,10 @@ export default function App(props) {
 // // Slide 30, Make the Channel Selection interactive
 // import React, { useState } from 'react';
 
-// import { HeaderBar } from './HeaderBar.js';
-// import { ChannelList } from './ChannelNav.js';
-// import { ChatPane } from './ChatPane.js';
-// import { ComposeForm } from './ComposeForm';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import { ChannelList } from './ChannelNav.jsx';
+// import { ChatPane } from './ChatPane.jsx';
+// import { ComposeForm } from './ComposeForm.jsx';
 // import CHAT_HISTORY from '../data/chat_log.json';
 
 // export default function App(props) {
@@ -299,10 +299,10 @@ export default function App(props) {
 // // so there aren't 2 versions of state for isLiked, and the official value is held in the App 
 // import React, { useState } from 'react';
 
-// import { HeaderBar } from './HeaderBar.js';
-// import { ChannelList } from './ChannelNav.js';
-// import { ChatPane } from './ChatPane.js';
-// import { ComposeForm } from './ComposeForm';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import { ChannelList } from './ChannelNav.jsx';
+// import { ChatPane } from './ChatPane.jsx';
+// import { ComposeForm } from './ComposeForm.jsx';
 // import CHAT_HISTORY from '../data/chat_log.json';
 
 // export default function App(props) {
