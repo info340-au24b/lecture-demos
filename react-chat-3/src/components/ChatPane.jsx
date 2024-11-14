@@ -1,73 +1,73 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
-export function ChatPane(props) {
-  const currentChannel = props.currentChannel;
-  const chatMessages = props.chatMessages;
-  // console.log("rendering ChatPane"); //debugging
+// export function ChatPane(props) {
+//   const currentChannel = props.currentChannel;
+//   const chatMessages = props.chatMessages;
+//   // console.log("rendering ChatPane"); //debugging
 
-  //only show current channel messages
-  //sorted in reverse order by timestamp
-  const channelMessages = chatMessages
-    .filter((msgObj) => {
-      return msgObj.channel === currentChannel;
-    })
-    .sort((a,b) => b.timestamp - a.timestamp);
+//   //only show current channel messages
+//   //sorted in reverse order by timestamp
+//   const channelMessages = chatMessages
+//     .filter((msgObj) => {
+//       return msgObj.channel === currentChannel;
+//     })
+//     .sort((a,b) => b.timestamp - a.timestamp);
 
-  const messageItemArray = channelMessages.map((messageObj) => {
-    const element = (
-      <MessageItem 
-        messageData={messageObj} 
-        key={messageObj.timestamp} 
-      />
-    )
-    return element;
-  })
+//   const messageItemArray = channelMessages.map((messageObj) => {
+//     const element = (
+//       <MessageItem 
+//         messageData={messageObj} 
+//         key={messageObj.timestamp} 
+//       />
+//     )
+//     return element;
+//   })
 
-  if(channelMessages.length === 0){
-    return <p>No messages on this channel yet!</p>
-  }
+//   if(channelMessages.length === 0){
+//     return <p>No messages on this channel yet!</p>
+//   }
 
-  return (
-    <div className="scrollable-pane">
-      <div className="pt-2 my-2">
-        {messageItemArray}
-      </div>
-    </div>
-  )
-}
+//   return (
+//     <div className="scrollable-pane">
+//       <div className="pt-2 my-2">
+//         {messageItemArray}
+//       </div>
+//     </div>
+//   )
+// }
 
-function MessageItem(props) {
-  const {userName, userImg, text} = props.messageData;
+// function MessageItem(props) {
+//   const {userName, userImg, text} = props.messageData;
 
-  //state
-  const [isLiked, setIsLiked] = useState(false);
+//   //state
+//   const [isLiked, setIsLiked] = useState(false);
 
-  const handleClick = (event) => {
-    console.log("you liked "+userName+"'s post!");
-    setIsLiked(!isLiked); //toggle
-  }
+//   const handleClick = (event) => {
+//     console.log("you liked "+userName+"'s post!");
+//     setIsLiked(!isLiked); //toggle
+//   }
 
-  //RENDERING
-  let heartColor = "grey";
-  if(isLiked) {
-    heartColor = "red";
-  }
+//   //RENDERING
+//   let heartColor = "grey";
+//   if(isLiked) {
+//     heartColor = "red";
+//   }
 
-  return (
-    <div className="message d-flex mb-3">
-      <div className="me-2">
-        <img src={userImg} alt={userName+"'s avatar"} />
-      </div>
-      <div className="flex-grow-1">
-        <p className="user-name">{userName}</p>
-        <p>{text}</p>
-        <button className="btn like-button" onClick={handleClick}>
-          <span className="material-icons" style={{ color: heartColor }}>favorite_border</span>
-        </button>
-      </div>
-    </div>
-  )
-}
+//   return (
+//     <div className="message d-flex mb-3">
+//       <div className="me-2">
+//         <img src={userImg} alt={userName+"'s avatar"} />
+//       </div>
+//       <div className="flex-grow-1">
+//         <p className="user-name">{userName}</p>
+//         <p>{text}</p>
+//         <button className="btn like-button" onClick={handleClick}>
+//           <span className="material-icons" style={{ color: heartColor }}>favorite_border</span>
+//         </button>
+//       </div>
+//     </div>
+//   )
+// }
 
 // // Slide 4, 5 Example code for on-off questions (conditional rendering, checkbox filter )
 
@@ -243,84 +243,84 @@ function MessageItem(props) {
 //   )
 // }
 
-// //Slide 35/36  - example of counting 'liked" messages, but here we 
-// // have 2 different places tracking the isLiked. One is in the json object
-// // the other is a local state variable in the MessageItem
+//Slide 35/36  - example of counting 'liked" messages, but here we 
+// have 2 different places tracking the isLiked. One is in the json object
+// the other is a local state variable in the MessageItem
 
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 
-// export function ChatPane(props) {
-//   const {currentChannel, chatMessages, toggleIsLikedCallback} = props;
+export function ChatPane(props) {
+  const {currentChannel, chatMessages, toggleIsLikedCallback} = props;
   
-//     const channelMessages = chatMessages
-//     .filter((msgObj) => {
-//       return msgObj.channel === currentChannel;
-//     })
-//     .sort((a,b) => b.timestamp - a.timestamp);
+    const channelMessages = chatMessages
+    .filter((msgObj) => {
+      return msgObj.channel === currentChannel;
+    })
+    .sort((a,b) => b.timestamp - a.timestamp);
 
-//     const countOfLikedMessages = channelMessages.filter((msgObj) => {
-//       return msgObj.liked === true;
-//     }).length
+    const countOfLikedMessages = channelMessages.filter((msgObj) => {
+      return msgObj.liked === true;
+    }).length
 
-//   const messageItemArray = channelMessages.map((messageObj) => {
-//     const element = (
-//       <MessageItem 
-//         messageData={messageObj} 
-//         toggleIsLikedCallback={toggleIsLikedCallback}
-//         key={messageObj.timestamp} 
-//       />
-//     )
-//     return element;
-//   })
+  const messageItemArray = channelMessages.map((messageObj) => {
+    const element = (
+      <MessageItem 
+        messageData={messageObj} 
+        toggleIsLikedCallback={toggleIsLikedCallback}
+        key={messageObj.timestamp} 
+      />
+    )
+    return element;
+  })
 
-//   if(channelMessages.length === 0){
-//     return <p>No messages on this channel yet!</p>
-//   }
+  if(channelMessages.length === 0){
+    return <p>No messages on this channel yet!</p>
+  }
 
-//   return (
-//     <div className="scrollable-pane">
-//       <p>Number of liked messages: {countOfLikedMessages}</p>
-//       <div className="pt-2 my-2">
-//         {messageItemArray}
-//       </div>
-//     </div>
-//   )
-// }
+  return (
+    <div className="scrollable-pane">
+      <p>Number of liked messages: {countOfLikedMessages}</p>
+      <div className="pt-2 my-2">
+        {messageItemArray}
+      </div>
+    </div>
+  )
+}
 
-// function MessageItem(props) {
-//   const {userName, userImg, text, liked, timestamp} = props.messageData;
-//   const toggleIsLikedCallback = props.toggleIsLikedCallback;
+function MessageItem(props) {
+  const {userName, userImg, text, liked, timestamp} = props.messageData;
+  const toggleIsLikedCallback = props.toggleIsLikedCallback;
 
-//   console.log(props)
+  console.log(props)
 
-//   //state
-//   // const [isLiked, setIsLiked] = useState(liked);
+  //state
+  // const [isLiked, setIsLiked] = useState(liked);
 
-//   const handleClick = (event) => {
-//     console.log("you liked "+userName+"'s post!");
-//     toggleIsLikedCallback(timestamp)
-//     // setIsLiked(!isLiked); //toggle
-//   }
+  const handleClick = (event) => {
+    console.log("you liked "+userName+"'s post!");
+    toggleIsLikedCallback(timestamp)
+    // setIsLiked(!isLiked); //toggle
+  }
 
-//   //RENDERING
-//   let heartColor = "grey";
-//   // if(isLiked) {
-//     if(liked) {
-//     heartColor = "red";
-//   }
+  //RENDERING
+  let heartColor = "grey";
+  // if(isLiked) {
+    if(liked) {
+    heartColor = "red";
+  }
 
-//   return (
-//     <div className="message d-flex mb-3">
-//       <div className="me-2">
-//         <img src={userImg} alt={userName+"'s avatar"} />
-//       </div>
-//       <div className="flex-grow-1">
-//         <p className="user-name">{userName}</p>
-//         <p>{text}</p>
-//         <button className="btn like-button" onClick={handleClick}>
-//           <span className="material-icons" style={{ color: heartColor }}>favorite_border</span>
-//         </button>
-//       </div>
-//     </div>
-//   )
-// }
+  return (
+    <div className="message d-flex mb-3">
+      <div className="me-2">
+        <img src={userImg} alt={userName+"'s avatar"} />
+      </div>
+      <div className="flex-grow-1">
+        <p className="user-name">{userName}</p>
+        <p>{text}</p>
+        <button className="btn like-button" onClick={handleClick}>
+          <span className="material-icons" style={{ color: heartColor }}>favorite_border</span>
+        </button>
+      </div>
+    </div>
+  )
+}
