@@ -165,9 +165,9 @@ function MessageItem(props) {
 //   )
 // }
 
-// // //Slide 32 and 33  - example of counting 'liked" messages, but here we 
-// // // have 2 different places tracking the isLiked. One is in the json object
-// // // the other is a local state variable in the MessageItem
+// //Slide 32 and 33  - example of counting 'liked" messages, but here we 
+// // have 2 different places tracking the isLiked. One is in the json object
+// // the other is a local state variable in the MessageItem
 
 // import React, { useState } from 'react';
 

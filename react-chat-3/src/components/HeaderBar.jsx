@@ -126,11 +126,11 @@ export function HeaderBar(props) {
 //     }
 
 //     return (
-//       <button className={classList} key={userObj.userName}
+//       <Dropdown.Item className={classList} key={userObj.userName}
 //         name={userObj.userId} onClick={handleClick}
 //       >
 //         <img src={userObj.userImg} alt={userObj.userName + " avatar"} />
-//       </button>
+//       </Dropdown.Item>
 //     )
 //   })
 
@@ -139,7 +139,16 @@ export function HeaderBar(props) {
 //     <header className="text-light bg-primary px-1 d-flex justify-content-between">
 //       <h1>React Messenger</h1>
 //       <div>
-//         {userButtons}
+//       <Dropdown>
+//       <Dropdown.Toggle variant="primary" id="dropdown-basic">
+//         Dropdown Button
+//       </Dropdown.Toggle>
+
+//       <Dropdown.Menu>
+//       {userButtons}      
+//         </Dropdown.Menu>
+//     </Dropdown>
+        
 //       </div>
 //     </header>
 //   )

@@ -171,7 +171,7 @@ export default function App(props) {
 //   );
 // }
 
-// // Slide 25, simplify and use the state vars in App rather than passing as props
+// Slide 25, simplify and use the state vars in App rather than passing as props
 // import React, { useState } from 'react';
 
 // import { HeaderBar } from './HeaderBar.jsx';
