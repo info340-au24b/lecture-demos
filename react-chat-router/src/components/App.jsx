@@ -50,10 +50,10 @@ function App(props) {
 // // Slide 18 Example - Add Routes/Route
 
 // import React, { useState } from 'react';
-// import { HeaderBar } from './HeaderBar.js';
-// import ChatPage from './ChatPage';
-// import SignInPage from './SignInPage';
-// import * as Static from './StaticPages';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import ChatPage from './ChatPage.jsx';
+// import SignInPage from './SignInPage.jsx';
+// import * as Static from './StaticPages.jsx';
 
 // import { Routes, Route } from "react-router-dom";
 
@@ -105,10 +105,10 @@ function App(props) {
 // // Example slide 19, use index and * catchall in the route list
 
 // import React, { useState } from 'react';
-// import { HeaderBar } from './HeaderBar.js';
-// import ChatPage from './ChatPage';
-// import SignInPage from './SignInPage';
-// import * as Static from './StaticPages';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import ChatPage from './ChatPage.jsx';
+// import SignInPage from './SignInPage.jsx';
+// import * as Static from './StaticPages.jsx';
 
 // import { Routes, Route } from "react-router-dom";
 
@@ -159,10 +159,10 @@ function App(props) {
 // // Slide 23 Example - Nesting Routes
 
 // import React, { useState } from 'react';
-// import { HeaderBar } from './HeaderBar.js';
-// import ChatPage from './ChatPage';
-// import SignInPage from './SignInPage';
-// import * as Static from './StaticPages';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import ChatPage from './ChatPage.jsx';
+// import SignInPage from './SignInPage.jsx';
+// import * as Static from './StaticPages.jsx';
 
 // import { Routes, Route, Outlet} from "react-router-dom";
 
@@ -223,10 +223,10 @@ function App(props) {
 
 
 // import React, { useState } from 'react';
-// import { HeaderBar } from './HeaderBar.js';
-// import ChatPage from './ChatPage';
-// import SignInPage from './SignInPage';
-// import * as Static from './StaticPages';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import ChatPage from './ChatPage.jsx';
+// import SignInPage from './SignInPage.jsx';
+// import * as Static from './StaticPages.jsx';
 
 // import { Routes, Route, Outlet } from "react-router-dom";
 
@@ -283,10 +283,10 @@ function App(props) {
 // // Example slide 36 URL Params
 
 // import React, { useState } from 'react';
-// import { HeaderBar } from './HeaderBar.js';
-// import ChatPage from './ChatPage';
-// import SignInPage from './SignInPage';
-// import * as Static from './StaticPages';
+// import { HeaderBar } from './HeaderBar.jsx';
+// import ChatPage from './ChatPage.jsx';
+// import SignInPage from './SignInPage.jsx';
+// import * as Static from './StaticPages.jsx';
 
 // import { Routes, Route, Outlet } from "react-router-dom";
 
