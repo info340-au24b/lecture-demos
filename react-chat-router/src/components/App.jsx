@@ -38,7 +38,8 @@ function App(props) {
         messageArray={messageStateArray}
         addMessageFunction={addMessage}
         />
-      {/* <SignInPage currentUser={currentUser} changeUserFunction={changeUser} />
+       <SignInPage currentUser={currentUser} changeUserFunction={changeUser} />
+      {/* 
       <Static.WelcomePage />
       <Static.AboutPage />
       <Static.ErrorPage /> */}
