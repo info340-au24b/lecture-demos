@@ -8,21 +8,21 @@ import App from './components/App.jsx';
 //import CSS
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
-
-// import { initializeApp } from "firebase/app";
+ 
+// //Slide 15
 // // Import the functions you need from the SDKs you need
-// // import { initializeApp } from "firebase/app";
+// import { initializeApp } from "firebase/app";
 // // TODO: Add SDKs for Firebase products that you want to use
 // // https://firebase.google.com/docs/web/setup#available-libraries
 
 // // Your web app's Firebase configuration
 // const firebaseConfig = {
-//   apiKey: "AIzaSyAYS3MDpTcEQnlREKtCREmzKe2NLHo7y0c",
-//   authDomain: "foo-delete-b5e24.firebaseapp.com",
-//   projectId: "foo-delete-b5e24",
-//   storageBucket: "foo-delete-b5e24.appspot.com",
-//   messagingSenderId: "217714342491",
-//   appId: "1:217714342491:web:5bc66608a00079d621dd7e"
+//   apiKey: "AIzaSyAuIRlkrH1YQ9T3YLcarj70OD8N4F6aTgk",
+//   authDomain: "foo-delete-a4f73.firebaseapp.com",
+//   projectId: "foo-delete-a4f73",
+//   storageBucket: "foo-delete-a4f73.firebasestorage.app",
+//   messagingSenderId: "716284348433",
+//   appId: "1:716284348433:web:3259d592c76b019f5c89b0"
 // };
 
 // // Initialize Firebase
