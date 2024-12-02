@@ -73,12 +73,12 @@ function ProtectedPage(props) {
 
 // import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
-// import { HeaderBar } from './HeaderBar.js';
+// import { HeaderBar } from './HeaderBar.jsx';
 
-// import ChatPage from './ChatPage';
-// import SignInPage from './SignInPage';
-// import ProfilePage from './ProfilePage.js';
-// import * as Static from './StaticPages';
+// import ChatPage from './ChatPage.jsx';
+// import SignInPage from './SignInPage.jsx';
+// import ProfilePage from './ProfilePage.jsx';
+// import * as Static from './StaticPages.jsx';
 
 // import DEFAULT_USERS from '../data/users.json';
 
@@ -164,16 +164,16 @@ function ProtectedPage(props) {
 
 // import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
-// import { HeaderBar } from './HeaderBar.js';
+// import { HeaderBar } from './HeaderBar.jsx';
 
-// import ChatPage from './ChatPage';
-// import SignInPage from './SignInPage';
-// import ProfilePage from './ProfilePage.js';
-// import UserImageInFBStore from './UserImageInFBStore.js';
-// import * as Static from './StaticPages';
+// import ChatPage from './ChatPage.jsx';
+// import SignInPage from './SignInPage.jsx';
+// import ProfilePage from './ProfilePage.jsx';
+// import UserImageInFBStore from './UserImageInFBStore.jsx';
+// import * as Static from './StaticPages.jsx';
 
 // import DEFAULT_USERS from '../data/users.json';
-// // import UserImageInFBStore from './UserImageInFBStore.js';
+// // import UserImageInFBStore from './UserImageInFBStore.jsx';
 
 // //A component!
 // export default function App(props) {
