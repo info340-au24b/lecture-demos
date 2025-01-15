@@ -149,7 +149,7 @@ export function HeaderBar(props) {
     <header className="text-light bg-primary px-1 d-flex justify-content-between">
       <h1>React Messenger</h1>
       <div>
-      <Dropdown>
+      {/* <Dropdown>
       <Dropdown.Toggle variant="primary" id="dropdown-basic">
         Dropdown Button
       </Dropdown.Toggle>
@@ -157,6 +157,16 @@ export function HeaderBar(props) {
       <Dropdown.Menu>
       {userButtons}      
         </Dropdown.Menu>
+    </Dropdown> */}
+
+<Dropdown>
+      <Dropdown.Toggle variant="success" id="dropdown-basic">
+        Tims nav
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu>
+    {userButtons}
+      </Dropdown.Menu>
     </Dropdown>
         
       </div>
